@@ -1,5 +1,0 @@
-streamlit
-pyvis
-google-generativeai
-python-dotenv
-google-generativeai
