@@ -116,3 +116,13 @@ if st.sidebar.button("🚀 Generate Roadmap"):
             b64_html = base64.b64encode(html_content.encode()).decode()
             href_html = f'<a href="data:text/html;base64,{b64_html}" download="roadmap.html">Download HTML File 📄</a>'
             st.markdown(href_html, unsafe_allow_html=True)
+
+# ------------------ About Section ------------------
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 👨‍💻 About")
+st.sidebar.image("https://avatars.githubusercontent.com/abhishek786216", width=80)  # Replace with your own image if needed
+st.sidebar.markdown("""
+**Developed by Abhishek Kumar**  
+🎓 College Project Submission  
+🚀 Helps users generate and visualize learning roadmaps  
+""")
