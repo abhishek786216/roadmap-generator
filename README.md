@@ -1,1 +1,57 @@
-# roadmap-generator
+# 🚀 Roadmap Generator using Transformer
+
+Welcome to the **Roadmap Generator** – a Streamlit web app that uses **Google Gemini LLM** to generate a detailed roadmap for any topic and visualize it interactively using **PyVis**. It's designed for students, educators, and lifelong learners to explore structured learning paths.
+
+🌐 **Live Demo**: [https://roadmap-generator.streamlit.app/](https://roadmap-generator.streamlit.app/)
+
+---
+
+## 🔍 Features
+
+- 🎯 **Customizable Roadmap Generation**  
+  Just enter a topic (e.g., *Machine Learning*, *Web Development*) and the app will generate a roadmap including:
+  - Subjects  
+  - Algorithms  
+  - Steps  
+  - Types
+
+- 🌐 **Interactive Visualization**  
+  Explore the roadmap as a dynamic graph using **PyVis**.
+
+- 🎨 **User Controls**  
+  Customize:
+  - Node color  
+  - Edge color  
+  - Font size  
+  - Node size  
+  - Graph layout
+
+- 📁 **Download Options**  
+  Save your roadmap as a `.json` or `.html` file for future use or offline exploration.
+
+---
+
+## 🧑‍💻 Developed By
+
+**Abhishek Kumar**  
+🎓 B.Tech Student, NIT Delhi  
+🔧 Built as part of a college project to assist learners in structuring their educational journeys.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Python**
+- **Streamlit**
+- **Google Generative AI (Gemini)**
+- **PyVis**
+- **dotenv**
+
+---
+
+## 📦 Installation
+
+### 🔧 Clone the repository
+
+```html
+<button onclick="navigator.clipboard.writeText('git clone https://github.com/abhishek786216/roadmap-generator.git\ncd roadmap-generator')">📋 Copy</button>
